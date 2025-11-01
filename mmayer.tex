@@ -1,3 +1,4 @@
+
 %%%%%%%%%%%%%%%%%
 % This is an sample CV template created using altacv.cls
 % (v1.7.4, 30 Jul 2025) written by LianTze Lim (liantze@gmail.com), based on the
@@ -18,7 +19,7 @@
 \documentclass[10pt,a4paper,withhyper]{altacv}
 %% AltaCV uses the fontawesome5 and simpleicons packages.
 %% See http://texdoc.net/pkg/fontawesome5 and http://texdoc.net/pkg/simpleicons for full list of symbols.
-
+\usepackage{hyperref}
 % Change the page layout if you need to
 \geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
 
@@ -39,7 +40,7 @@
 \fi
 
 % Change the colours if you want to
-\definecolor{VividPurple}{HTML}{3E0097}
+\definecolor{VividPurple}{HTML}{000000}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
 \definecolor{LightGrey}{HTML}{666666}
 % \colorlet{name}{black}
@@ -89,22 +90,26 @@
 \addbibresource{sample.bib}
 
 \begin{document}
-\name{Marissa Mayer}
-\tagline{Business Woman \& Proud Geek}
+\name{Yahia Abdeldjallil BENAMROUCHE}
 % Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
 %% You can add multiple photos on the left or right
 \photoR{2.5cm}{mmayer-wikipedia-cc-by-2_0}
 % \photoL{2cm}{Yacht_High,Suitcase_High}
 \personalinfo{%
   % Not all of these are required!
-  \email{mmayer@yahoo-inc.com}
-  \phone{000-00-0000}
-  \mailaddress{Address, Street, 00000 County}
-  \location{Sunnyvale, CA}
-  \linkedin{marissamayer}
+  \email{yahia.benamrouche@gmail.com}
+  \phone{+213(0)542449732}
+  \mailaddress{UV1,Alimendjeli , Constantine , Algerie
+}
+  \linkedin{yah04dev}
   % \twitter{@marissamayer}
-  \xtwitter{@marissamayer}
-  \homepage{marissamayr.tumblr.com}
+  \github{@yah04dev}
+\rule{\textwidth}{0.4pt}
+\begin{center}
+\textbf \larh{
+Étudiant en L3 informatique à l’Université de Constantine 2, passionné par l’informatique depuis l’enfance et motivé par l’aide aux autres, je prévois après la fin de mon L3 de poursuivre un master en bio-informatique pour réunir ces deux passions.}
+\end{center}
+\rule{\textwidth}{0.4pt}
 %   \github{github.com/mmayer} % I'm just making this up though.
 %   \orcid{0000-0000-0000-0000} % Obviously making this up too.
   %% You can add your own arbitrary detail with
@@ -139,161 +144,112 @@
 % break across pages if things get too long.
 \begin{paracol}{2}
 
-\cvsection{Experience}
 
-\cvevent{President \& CEO}{Yahoo!}{July 2012 -- Ongoing}{Sunnyvale, CA}
-\begin{itemize}
-\item Led the \$5 billion acquisition of the company with Verizon -- the entity which believed most in the immense value Yahoo!\ has created
-\item Acquired Tumblr for \$1.1 billion and moved the company's blog there
-\item Built Yahoo's mobile, video and social businesses from nothing in 2011 to \$1.6 billion in GAAP revenue in 2015
-\item Tripled the company's mobile base to over 600 million monthly active users and generated over \$1 billion of mobile advertising revenue last year
-\end{itemize}
+\cvsection{Formation}
 
-\divider
+\cvevent{Licence en Sciences de l’informatique}{Université de Constantine 2}{Septembre 2023 -- En cours}
 
-\cvevent{Vice President of Location \& Services}{Google}{Oct 2010 -- July 2012}{Palo Alto, CA}
-\begin{itemize}
-\item Position Google Maps as the world leader in mobile apps and navigation
-\item Oversaw 1000+ engineers and product managers working on Google Maps, Google Places and Google Earth
-\end{itemize}
+\small{ $\bullet$ Animé d’un fort intérêt pour l’informatique, j’ai validé avec succès les deux premières années de licence, acquérant une solide base Je souhaite désormais approfondir mes connaissances en poursuivant ma formation en L3.} 
+
+
 
 \divider
 
-\cvevent{Vice President of Search Products \& UX}{Google}{2005 --  2010}{Palo Alto, CA}
+\cvevent{Bac math technique option “Genie Civil” (candidat libre)}{Direction de l’Éducation de Constantine}{Juillet 2023}
+\small {$\bullet$ Après avoir constaté que mes premiers résultats au baccalauréat ne me permettaient pas de m’orienter vers l’informatique, j’ai choisi de le repasser en candidat libre pour suivre la voie qui me correspond .}
 
 \divider
 
-\cvevent{Product Manager \& UI Lead}{Google}{Oct 2001 -- July 2005}{Palo Alto, CA}
+\cvevent{Bac math technique option “Genie Civil”}{Lycée Benabdelkader Med Elarbi}{Septembre 2019 -- Juillet 2022}
 
-\begin{itemize}
-\item Appointed by the founder Larry Page in 2001 to lead the Product Management and User Interaction teams
-\item Optimized Google's homepage and A/B tested every minor detail to increase usability (incl.~spacing between words, color schemes and pixel-by-pixel element alignment)
-\end{itemize}
+\small{ $\bullet$ J’ai étudié pendant trois ans dans un lycée technique, dans un cursus basé sur les mathématiques, la physique et le génie civil. J’ai ensuite obtenu mon baccalauréat avec une moyenne de 12.90} 
 
-% \divider
 
-% \cvevent{Product Engineer}{Google}{23 June 1999 -- 2001}{Palo Alto, CA}
+\cvsection{Les projets}
+\cvevent{Hospito}{\href{https://github.com/yah04dev/hospito}{https://github.com/yah04dev/hospito}}{mai 2023 -- Juillet 2023}
 
-% \begin{itemize}
-% \item Joined the company as employe \#20 and female employee \#1
-% \item Developed targeted advertisement in order to use user's search queries and show them related ads
-% \end{itemize}
+\small{ $\bullet$ Application web développée avec Flask et SQLite permettant la gestion des patients, des médecins ...}
 
-\cvsection{A Day of My Life}
 
-% Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
-% \wheelchart{outer radius}{inner radius}{
-% comma-separated list of value/text width/color/detail}
-% Some ad-hoc tweaking to adjust the labels so that they don't overlap
-\hspace*{-1em}  %% quick hack to move the wheelchart a bit left
-\wheelchart{1.5cm}{0.5cm}{%
-  10/13em/accent!30/Sleeping \& dreaming about work,
-  25/9em/accent!60/Public resolving issues with Yahoo!\ investors,
-  5/11em/accent!10/\footnotesize\\[1ex]New York \& San Francisco Ballet Jawbone board member,
-  20/11em/accent!40/Spending time with family,
-  5/8em/accent!20/\footnotesize Business development for Yahoo!\ after the Verizon acquisition,
-  30/9em/accent/Showing Yahoo!\ \mbox{employees} that their work has meaning,
-  5/8em/accent!20/Baking cupcakes
+\cvsection{Travail bénévole}
+\cvevent{Volontaire
+}{Croissant-Rouge Algérien}{mai 2024 -- Juillet 2025 }
+
+\small{ $\bullet$ J’ai rejoint le Croissant-Rouge comme bénévole par passion pour l'aide aux autres. J'ai participé à des initiatives telles que la distribution de nourriture et l'organisation de collectes de sang, contribuant ainsi à ma communauté.
 }
 
-% use ONLY \newpage if you want to force a page break for
-% ONLY the currentc column
 \newpage
+\cvsection{Programme d'échange}
+\cvevent{Programme numérique de leadership jeunesse et de service communautaire}{World Learning (The Experiment Digital)
+}{juin 2022 -- Aout 2022 }
 
-\cvsection{Publications}
+\small{ $\bullet$ Un programme d’échange en ligne de deux mois m’a permis de développer de solides compétences en leadership, citoyenneté et gestion de projet, enrichissant ainsi mon parcours personnel.
+}
 
-%% Specify your last name(s) and first name(s) as given in the .bib to automatically bold your own name in the publications list.
-%% One caveat: You need to write \bibnamedelima where there's a space in your name for this to work properly; or write \bibnamedelimi if you use initials in the .bib
-%% You can specify multiple names, especially if you have changed your name or if you need to highlight multiple authors.
-\mynames{Lim/Lian\bibnamedelima Tze,
-  Wong/Lian\bibnamedelima Tze,
-  Lim/Tracy,
-  Lim/L.\bibnamedelimi T.}
-%% MAKE SURE THERE IS NO SPACE AFTER THE FINAL NAME IN YOUR \mynames LIST
 
-\nocite{*}
+\cvsection{Certifications}
+\cvevent{Introduction à l’impact de l’IA générative sur la transformation des soins de santé}{Linkedin Learning}{Aout 2025}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faBook}{Books}},type=book]
+\small{ $\bullet$ Curieux de voir comment la bio-informatique transformera radicalement les soins de santé, j’ai suivi ce cours comme introduction afin de comprendre comment l’informatique contribuera à ce changement
+}
 
-\divider
+\cvevent{Introduction à l’intelligence artificielle }{Linkedin Learning}{Juillet 2025}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faFile*[regular]}{Journal Articles}}, type=article]
+\small{ $\bullet$ Curieux de l’IA, j’ai suivi ce cours pour acquérir les bases et mieux comprendre le vocabulaire des vidéos, podcasts et ateliers que je regarde habituellement.}
 
-\divider
+\cvevent{Atelier  “Flutter”}{Institut français Constantine
+}{Janvier 2025}
 
-\printbibliography[heading=pubtype,title={\printinfo{\faUsers}{Conference Proceedings}},type=inproceedings]
+\small{ $\bullet$ J’ai participé à un workshop mobile à l’Institut français, par curiosité et pour découvrir comment développer une application native.
+}
 
-%% Switch to the right column. This will now automatically move to the second
-%% page if the content is too long.
+\cvevent{Secouriste certifié “AFPS”}{Croissant-Rouge Algérien}{Janvier 2024}
+
+\small{ $\bullet$ Une belle expérience m'a appris à faire correctement les premiers secours (RCP, manœuvre de Heimlich..)
+}
+
+
+
+
+
+
 \switchcolumn
 
-\cvsection{Life Philosophy}
-\begin{quote}
-``If you don't have any shadows, you're not standing in the light.''
-\end{quote}
-
-\cvsection{Most Proud of}
-
-\cvachievement{\faTrophy}{Courage I had}{to take a sinking ship and try to make it float}
-
-\divider
-
-\cvachievement{\faHeartbeat}{Persistence \& Loyalty}{I showed despite the hard moments and my willingness to stay with Yahoo after the acquisition}
-
-\divider
-
-\cvachievement{\faChartLine}{Google's Growth}{from a hundred thousand searches per day to over a billion}
-
-\divider
-
-\cvachievement{\faFemale}{Inspiring women in tech}{Youngest CEO on Fortune's list of 50 most powerful women}
-
-\cvsection{Strengths}
-
-% Don't overuse these \cvtag boxes — they're just eye-candies and not essential. If something doesn't fit on a single line, it probably works better as part of an itemized list (probably inlined itemized list), or just as a comma-separated list of strengths.
-
-\cvtag{Hard-working (18/24)}
-\cvtag{Persuasive}\\
-\cvtag{Motivator \& Leader}
-
-\divider\smallskip
-
-\cvtag{UX}
-\cvtag{Mobile Devices \& Applications}
-\cvtag{Product Management \& Marketing}
-
+\color{black}
 \cvsection{Languages}
+\begin{itemize}
+\item{Arabe : langue maternelle} %% supports X.5 values.
 
-\cvskill{English}{5}
-\divider
+\item{Francais: B2 (DELF)}
 
-\cvskill{Spanish}{4}
-\divider
+\item{English : B2 (EF SET)}
 
-\cvskill{German}{3.5} %% supports X.5 values.
+\item{Espagnol : A1}
 
+\end{itemize}
+\cvsection{Compétences}
+\begin{itemize}
+\item{Python} %% supports X.5 values.
 
-\cvsection{Education}
+\item{Flask}
 
-\cvevent{M.S.\ in Computer Science}{Stanford University}{Sept 1997 -- June 1999}{}
+\item{HTML/CSS/JS}
 
-\divider
+\item{Arduino / Esp32 (IOT)}
 
-\cvevent{B.S.\ in Symbolic Systems}{Stanford University}{Sept 1993 -- June 1997}{}
+\item{SQL}
+\end{itemize}
+\cvsection{Centres d’intérêt}
+\begin{itemize}
 
-\newpage
+\item{Humanité}
 
-\cvsection{Referees}
+\item{La psychologie}
 
-% \cvref{name}{email}{mailing address}
-\cvref{Prof.\ Alpha Beta}{Institute}{a.beta@university.edu}
-{Address Line 1\\Address Line 2}
+\item{La baignade}
 
-\divider
-
-\cvref{Prof.\ Gamma Delta}{Institute}{g.delta@university.edu}
-{Address Line 1\\Address Line 2}
-
+\item{L’exploration des paysages }
+\end{itemize}
 \end{paracol}
 
 \end{document}
